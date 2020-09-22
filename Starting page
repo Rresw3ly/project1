@@ -11,8 +11,19 @@
             text-align: center;
         }
     </style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+
+    <script type="text/javascript" src="actor.js"></script>
+    <script type="text/javascript" src="player1.js"></script>
+    <script type="text/javascript" src="player2.js"></script>
+
 </head>
 
 <body>
+<body style="background-color:seagreen;">
+    <h1><b>The Game of Pantomimes</b></h1>
+
     
+
 </body>
