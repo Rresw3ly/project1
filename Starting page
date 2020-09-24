@@ -10,6 +10,27 @@
             0pt;
             text-align: center;
         }
+
+        h2{
+            color: aliceblue;
+            font: size 2;
+            0pt;
+            text-align: center;
+        }
+
+        body{
+            text-align:center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(243, 128, 138);
+        }
+
+        
     </style>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
@@ -23,6 +44,13 @@
 <body>
 <body style="background-color:seagreen;">
     <h1><b>The Game of Pantomimes</b></h1>
+    <h2><b>Choose your role:</b></h2>
+    
+    <ul>
+        <a href="https://editor.p5js.org/Rresw3ly/full/N1-47MqD6">Actor</a>
+        <a href="https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG">Player</a>
+    </ul>
+    
 
     
 
