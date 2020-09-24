@@ -30,6 +30,18 @@
             background-color: rgb(243, 128, 138);
         }
 
+        li {
+            float:unset;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
         
     </style>
 
@@ -47,8 +59,8 @@
     <h2><b>Choose your role:</b></h2>
     
     <ul>
-        <a href="https://editor.p5js.org/Rresw3ly/full/N1-47MqD6">Actor</a>
-        <a href="https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG">Player</a>
+        <li><a href="https://editor.p5js.org/Rresw3ly/full/N1-47MqD6">Actor</a></li>
+        <li><a href="https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG">Player</a></li>
     </ul>
     
 
