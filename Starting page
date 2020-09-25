@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- this is the opening page for Pantodraw
+//-->
 
 <head>
-    <title>Pantomimes</title>
+    <title>Pantodraw</title>
 
     <style>
         h1 {
@@ -47,9 +49,13 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
 
-    <script type="text/javascript" src="actor.js"></script>
-    <script type="text/javascript" src="player1.js"></script>
-    <script type="text/javascript" src="player2.js"></script>
+    <script type="text/javascript" src="painter.js"></script>
+    <script type="text/javascript" src="p5.js"></script>
+    <script type="text/javascript" src="p5.min.js"></script>
+    <script type="text/javascript" src="p5.sound.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+    <script type="text/css" src="painter.css"></script>
+    <script type="text/css" src="style.css"></script>
 
 </head>
 
@@ -59,12 +65,12 @@
     <h2><b>Choose your role:</b></h2>
     
     <ul>
-        <li><a href="https://editor.p5js.org/Rresw3ly/full/N1-47MqD6">Actor</a></li>
-        <li><a href="https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG">Player</a></li>
+        <li><a href="painter.html">Painter</a></li>
+        <li><a href="index.html">Player</a></li>
     </ul>
 
-    <a href="https://editor.p5js.org/Rresw3ly/full/N1-47MqD6"><img src="begoniarex.png" alt="Actor"></a>
-    <a href="https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG"><img src="magnificum.png" alt="Player"></a>
+    <a href="painter.html"><img src="painter_icon.jpg" alt="Painter"></a>
+    <a href="index.html"><img src="player_icon.jpg" alt="Player"></a>
     
 
     
