@@ -66,11 +66,11 @@
     
     <ul>
         <li><a href="painter.html">Painter</a></li>
-        <li><a href="index.html">Player</a></li>
+        <li><a href="player.html">Player</a></li>
     </ul>
 
     <a href="painter.html"><img src="painter_icon.jpg" alt="Painter"></a>
-    <a href="index.html"><img src="player_icon.jpg" alt="Player"></a>
+    <a href="player.html"><img src="player_icon.jpg" alt="Player"></a>
     
 
     
