@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<!-- this is the starting page for Pantodraw
+//-->
+<head>
+    <title>Pantodraw</title>
+
+    <style>
+        body{
+        text-align:center;
+    }
+    </style>
+
+</head>
+<body>
+    <img src="Opening_Animation_Title_1.gif" alt="Pantodraw">
+
+  <a href="starting page.html"><img src="start_button.png" alt="Start"></a>
+</body>
+
+<script>
+    var vid = document.getElementById("myVideo");
+    vid.autoplay = true;
+    vid.load();
+</script>
