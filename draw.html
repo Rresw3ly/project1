@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painter Page</title>
+
+    <style>
+
+        body{
+            text-align:center;
+        }
+
+        img {
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }     
+        
+    </style>
+
+</head>
+
+<body>
+<body style="background-color:rgb(73,167,158);">
+
+
+    <img src="painter_draw.png" alt="Painter" width="600" height="170" >
+    <img src="time_left.png" alt="time" width="165" height="50" >
+    <img src="P1.1.png" id="mainImage" alt="P1.1" width="290" height="470" >
+    
+
+<script type="text/javascript">
+    var myImage = document.getElementById('mainImage');
+    var imageArray = ["P1.1.png","P2.1.png","P3.1.png"];
+    var imageIndex = 1;
+
+    function changeImage(){
+        myImage.setAttribute("src", imageArray[imageIndex]);
+        imageIndex++;
+        if (imageIndex >=3) {imageIndex = 0;}
+    }
+
+
+</script>
+
+<img onclick="changeImage()" src="next_button.png" alt="Next" width="80" height="50" >
+
+</body>
+</html>
